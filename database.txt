@@ -1,0 +1,71 @@
+create database s2b;
+use s2b;
+
+Five tables
+
+CREATE TABLE `user_details` (
+  `first_name` varchar(45) NOT NULL,
+  `last_name` varchar(45) NOT NULL,
+  `email` varchar(85) NOT NULL,
+  `password` varchar(145) NOT NULL,
+  `dob` date NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `age` int NOT NULL,
+  `role` varchar(45) NOT NULL,
+  `user_id` varchar(145) NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `seller_details` (
+  `first_name` varchar(45) NOT NULL,
+  `last_name` varchar(45) NOT NULL,
+  `email` varchar(145) NOT NULL,
+  `password` varchar(145) NOT NULL,
+  `dob` date NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `age` int NOT NULL,
+  `role` varchar(45) NOT NULL,
+  `seller_id` varchar(145) NOT NULL,
+  PRIMARY KEY (`email`,`seller_id`),
+  KEY `idx_seller_id` (`seller_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `product_table` (
+  `product_id` varchar(255) NOT NULL,
+  `product_name` varchar(75) DEFAULT NULL,
+  `product_category` varchar(75) DEFAULT NULL,
+  `product_description` varchar(255) DEFAULT NULL,
+  `product_image` varchar(255) DEFAULT NULL,
+  `product_price` int DEFAULT NULL,
+  `phone_number` bigint DEFAULT NULL,
+  `seller_id` varchar(255) NOT NULL,
+  PRIMARY KEY (`product_id`),
+  KEY `product_table_ibfk_1` (`seller_id`) /*!80000 INVISIBLE */,
+  CONSTRAINT `product_table_ibfk_1` FOREIGN KEY (`seller_id`) REFERENCES `seller_details` (`seller_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `booking_details` (
+  `booking_id` varchar(155) NOT NULL,
+  `product_name` varchar(155) DEFAULT NULL,
+  `product_category` varchar(30) DEFAULT NULL,
+  `product_description` varchar(255) DEFAULT NULL,
+  `product_price` int DEFAULT NULL,
+  `product_image` varchar(255) DEFAULT NULL,
+  `seller_contact_number` bigint DEFAULT NULL,
+  `user_contact_number` bigint DEFAULT NULL,
+  `seller_id` varchar(75) DEFAULT NULL,
+  `user_id` varchar(75) DEFAULT NULL,
+  `user_first_name` varchar(75) DEFAULT NULL,
+  `user_last_name` varchar(75) DEFAULT NULL,
+  PRIMARY KEY (`booking_id`),
+  KEY `booking_details_ibfk_1` (`seller_id`) /*!80000 INVISIBLE */,
+  KEY `booking_details_ibfk_2` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `admin` (
+  `admin_id` varchar(75) NOT NULL,
+  `admin_email` varchar(100) DEFAULT NULL,
+  `admin_password` varchar(100) DEFAULT NULL,
+  `role` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  
