@@ -1,0 +1,201 @@
+@import "variables";
+@import "background";
+@import "colors";
+@import "mediaquery";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 4vw;
+}
+
+.logInSection,
+.registerSection {
+  .logoContainer {
+    min-height: 20vh;
+  }
+
+  .signInContainer,
+  .signUpContainer {
+    min-height: 80vh;
+
+    .form-wrapper {
+      border-radius: 2em;
+
+      .form-control,
+      .input-Container {
+        position: relative;
+        padding: 0px;
+
+        input {
+          height: 100%;
+          width: 100%;
+          background: #333;
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          color: $login_input_placeholder;
+          font-size: 1rem;
+          padding: 20px 15px 15px 15px;
+        }
+
+        label {
+          position: absolute;
+          left: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 1rem;
+          pointer-events: none;
+          color: #8c8c8c;
+          transition: all 0.1s ease;
+        }
+
+        input:is(:focus, :valid)~label {
+          font-size: 0.75rem;
+          transform: translateY(-130%);
+        }
+
+        .remember-me label {
+          color: aqua;
+        }
+      }
+    }
+  }
+}
+
+// //HOME PAGE
+.about {
+  background-image: linear-gradient(6deg, black, transparent);
+  color: aqua;
+}
+
+.about-container {
+  height: 50vh;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  img:hover {
+    opacity: 0.7;
+  }
+}
+
+.product .carousel {
+  max-height: 75vh;
+
+  .carousel-card1,
+  .carousel-card2,
+  .carousel-card3 {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+    .card {
+      width: 50vw;
+    }
+  }
+
+  .carousel-card1 {
+    background-image: url("https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+
+  .carousel-card2 {
+    background-image: url("https://images.pexels.com/photos/819805/pexels-photo-819805.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+
+  .carousel-card3 {
+    background-image: url("https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+
+
+}
+
+.product-dashboard {
+  .cus-card-bg-image {
+    background-size: cover;
+    height: 28vh;
+    background-blend-mode: inherit;
+
+    .card-body {
+      z-index: 1;
+    
+      &:hover {
+        opacity: 0;
+      }
+    }
+    
+
+    // .blur {
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    //   backdrop-filter: blur(2px);
+    // }
+
+    // .cus-card-bg-image:hover .blur {
+    //   backdrop-filter: blur(0px);
+    // }
+  }
+}
+
+//MENU
+.menu {
+  max-height: 12vh;
+}
+
+//mixins
+@mixin height {
+  min-height: 88vh;
+  color: aqua;
+}
+
+//Itemdashboard
+.cus-itemdashboard,
+.edit_profile,
+.seller-product,
+.product-dashboard //user-edit
+
+  {
+  @include height;
+}
+
+
+//admin-edits
+.show-users {
+  h1 {
+    color: aqua;
+  }
+
+  th {
+    color: white !important;
+  }
+
+  tbody {
+    tr {
+      border-style: hidden !important;
+
+      td {
+        color: aqua !important;
+      }
+    }
+  }
+}
+
+
+.footer {
+  a {
+    color: $footer-txt_clr;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $footer-link-hover_color;
+    }
+  }
+}

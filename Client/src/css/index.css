@@ -1,0 +1,215 @@
+.logInSection {
+  background-image: url("../assests/pexels-maxime-francis-2246476.jpg");
+  background-size: cover;
+}
+
+.registerSection {
+  background-image: url("../assests/pexels-fauxels-3183197.jpg");
+  background-size: cover;
+}
+
+.home-Bg-Image {
+  background-image: url("../assests/pexels-mohamed-almari-1485894.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body .form-wrapper {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+body .form-wrapper h2 {
+  color: aqua;
+}
+
+@media only screen and (max-width: 1163px) {
+  .loginInSection .logoContainer {
+    min-height: 20vh;
+  }
+  .loginInSection .logoContainer .logo {
+    width: 16vw;
+  }
+  .loginInSection .signInContainer {
+    min-height: 80vh;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 4vw;
+}
+
+.logInSection .logoContainer,
+.registerSection .logoContainer {
+  min-height: 20vh;
+}
+.logInSection .signInContainer,
+.logInSection .signUpContainer,
+.registerSection .signInContainer,
+.registerSection .signUpContainer {
+  min-height: 80vh;
+}
+.logInSection .signInContainer .form-wrapper,
+.logInSection .signUpContainer .form-wrapper,
+.registerSection .signInContainer .form-wrapper,
+.registerSection .signUpContainer .form-wrapper {
+  border-radius: 2em;
+}
+.logInSection .signInContainer .form-wrapper .form-control,
+.logInSection .signInContainer .form-wrapper .input-Container,
+.logInSection .signUpContainer .form-wrapper .form-control,
+.logInSection .signUpContainer .form-wrapper .input-Container,
+.registerSection .signInContainer .form-wrapper .form-control,
+.registerSection .signInContainer .form-wrapper .input-Container,
+.registerSection .signUpContainer .form-wrapper .form-control,
+.registerSection .signUpContainer .form-wrapper .input-Container {
+  position: relative;
+  padding: 0px;
+}
+.logInSection .signInContainer .form-wrapper .form-control input,
+.logInSection .signInContainer .form-wrapper .input-Container input,
+.logInSection .signUpContainer .form-wrapper .form-control input,
+.logInSection .signUpContainer .form-wrapper .input-Container input,
+.registerSection .signInContainer .form-wrapper .form-control input,
+.registerSection .signInContainer .form-wrapper .input-Container input,
+.registerSection .signUpContainer .form-wrapper .form-control input,
+.registerSection .signUpContainer .form-wrapper .input-Container input {
+  height: 100%;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #8c8c8c;
+  font-size: 1rem;
+  padding: 20px 15px 15px 15px;
+}
+.logInSection .signInContainer .form-wrapper .form-control label,
+.logInSection .signInContainer .form-wrapper .input-Container label,
+.logInSection .signUpContainer .form-wrapper .form-control label,
+.logInSection .signUpContainer .form-wrapper .input-Container label,
+.registerSection .signInContainer .form-wrapper .form-control label,
+.registerSection .signInContainer .form-wrapper .input-Container label,
+.registerSection .signUpContainer .form-wrapper .form-control label,
+.registerSection .signUpContainer .form-wrapper .input-Container label {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+  color: #8c8c8c;
+  transition: all 0.1s ease;
+}
+.logInSection .signInContainer .form-wrapper .form-control input:is(:focus, :valid) ~ label,
+.logInSection .signInContainer .form-wrapper .input-Container input:is(:focus, :valid) ~ label,
+.logInSection .signUpContainer .form-wrapper .form-control input:is(:focus, :valid) ~ label,
+.logInSection .signUpContainer .form-wrapper .input-Container input:is(:focus, :valid) ~ label,
+.registerSection .signInContainer .form-wrapper .form-control input:is(:focus, :valid) ~ label,
+.registerSection .signInContainer .form-wrapper .input-Container input:is(:focus, :valid) ~ label,
+.registerSection .signUpContainer .form-wrapper .form-control input:is(:focus, :valid) ~ label,
+.registerSection .signUpContainer .form-wrapper .input-Container input:is(:focus, :valid) ~ label {
+  font-size: 0.75rem;
+  transform: translateY(-130%);
+}
+.logInSection .signInContainer .form-wrapper .form-control .remember-me label,
+.logInSection .signInContainer .form-wrapper .input-Container .remember-me label,
+.logInSection .signUpContainer .form-wrapper .form-control .remember-me label,
+.logInSection .signUpContainer .form-wrapper .input-Container .remember-me label,
+.registerSection .signInContainer .form-wrapper .form-control .remember-me label,
+.registerSection .signInContainer .form-wrapper .input-Container .remember-me label,
+.registerSection .signUpContainer .form-wrapper .form-control .remember-me label,
+.registerSection .signUpContainer .form-wrapper .input-Container .remember-me label {
+  color: aqua;
+}
+
+.about {
+  background-image: linear-gradient(6deg, black, transparent);
+  color: aqua;
+}
+
+.about-container {
+  height: 50vh;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card:hover img:hover {
+  opacity: 0.7;
+}
+
+.product .carousel {
+  max-height: 75vh;
+}
+.product .carousel .carousel-card1,
+.product .carousel .carousel-card2,
+.product .carousel .carousel-card3 {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.product .carousel .carousel-card1 .card,
+.product .carousel .carousel-card2 .card,
+.product .carousel .carousel-card3 .card {
+  width: 50vw;
+}
+.product .carousel .carousel-card1 {
+  background-image: url("https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.product .carousel .carousel-card2 {
+  background-image: url("https://images.pexels.com/photos/819805/pexels-photo-819805.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.product .carousel .carousel-card3 {
+  background-image: url("https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.product-dashboard .cus-card-bg-image {
+  background-size: cover;
+  height: 28vh;
+  background-blend-mode: inherit;
+}
+.product-dashboard .cus-card-bg-image .card-body {
+  z-index: 1;
+}
+.product-dashboard .cus-card-bg-image .card-body:hover {
+  opacity: 0;
+}
+
+.menu {
+  max-height: 12vh;
+}
+
+.cus-itemdashboard,
+.edit_profile,
+.seller-product,
+.product-dashboard {
+  min-height: 88vh;
+  color: aqua;
+}
+
+.show-users h1 {
+  color: aqua;
+}
+.show-users th {
+  color: white !important;
+}
+.show-users tbody tr {
+  border-style: hidden !important;
+}
+.show-users tbody tr td {
+  color: aqua !important;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */

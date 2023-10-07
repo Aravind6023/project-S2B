@@ -1,0 +1,18 @@
+@import "variables";
+
+
+.logInSection{
+    background-image: $login_Bg_Image;
+    background-size: cover;
+}
+.registerSection{
+    background-image: $signUp_Bg_Image;
+    background-size: cover;
+}
+//HOME PAGE
+
+    .home-Bg-Image{
+    background-image: $home_Bg_Image;
+    background-size: cover;
+    background-attachment:fixed ;
+    }
