@@ -6,9 +6,9 @@ import logo from '../../assests/logo.jpg';
 export function Homemenu() {
     return (
         <>
-            <nav className="navbar w-100 navbar-expand-lg position-absolute">
+            <nav className="navbar homeMenu w-100 navbar-expand-lg position-absolute">
                 <div className="container-fluid">
-                    <Link className="navbar-brand"><img className='rounded-circle logo' src={logo}></img></Link>
+                    <Link className="navbar-brand col-1"><img className='rounded-circle logo col-12 col-lg-6' src={logo}></img></Link>
                     <button className="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

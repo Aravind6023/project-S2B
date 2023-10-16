@@ -32,7 +32,7 @@ export function Home() {
                             </section>
                         </div>
                     </section>
-                    <sectoin className='px-5 landing-page'>
+                    <sectoin className='px-4 px-md-5 landing-page'>
                         <div className=''>
                             <div className='row'>
                                 <div className='col-12 d-flex flex-column align-items-center py-5'>
@@ -42,26 +42,26 @@ export function Home() {
                                         </div>
                                         <div className='col-12 col-md-6 d-flex flex-column justify-content-evenly'>
                                             <h1 className='pb-1'>Shop with Confidence</h1>
-                                            <h4>Got items you no longer need? Turn them into cash! S2B provides a user-friendly platform for sellers to list their products. It's as easy as snap, list, and sell. Plus, our secure payment system ensures you receive your earnings hassle-free.</h4>
+                                            <h5>Got items you no longer need? Turn them into cash! S2B provides a user-friendly platform for sellers to list their products. It's as easy as snap, list, and sell. Plus, our secure payment system ensures you receive your earnings hassle-free.</h5>
                                             <ul className='list-unstyled'>
-                                                <h4>
+                                                <h5>
                                                     <li className='py-1'><FontAwesomeIcon className='px-3' icon={faCheckDouble} />With S2B, decluttering your space and earning extra money has never been simpler.</li>
                                                     <li className='py-1'><FontAwesomeIcon className='px-3' icon={faCheckDouble} />We connect buyers and sellers in a seamless online marketplace designed for your convenience.</li>
-                                                    <li className='py-1'><FontAwesomeIcon className='px-3' icon={faCheckDouble} />Join our community today and start selling your items with ease on S2B!</li></h4>
+                                                    <li className='py-1'><FontAwesomeIcon className='px-3' icon={faCheckDouble} />Join our community today and start selling your items with ease on S2B!</li></h5>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='col-12'>
                                     <h2 className='text-center py-4'>Why Choose Us?</h2>
-                                    <div className='row justify-content-evenly'>
+                                    <div className='row justify-content-between g-4'>
                                         <div className='col-12 col-md-3 d-flex'>
                                             <div class="card">
                                                 <img src="https://images.pexels.com/photos/39584/censorship-limitations-freedom-of-expression-restricted-39584.jpeg?auto=compress&cs=tinysrgb" class="card-img-top" alt="no image" />
                                                 <div class="card-body d-flex flex-column align-items-center justify-content-between">
                                                     <h5 class="card-title">Safety First</h5>
                                                     <p class="card-text">We prioritize your safety. Secure messaging system and verified user profiles give you peace of mind when interacting with others.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    <a href="#" class="btn btn-primary">Visit Our Blog</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@ export function Home() {
                                                 <div class="card-body d-flex flex-column align-items-center justify-content-between">
                                                     <h5 class="card-title">Local and Global</h5>
                                                     <p class="card-text">Whether you want to buy or sell locally or expand your reach globally, we've got you covered.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    <a href="#" class="btn btn-primary">Visit Our Blog</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,19 +81,9 @@ export function Home() {
                                                 <div class="card-body d-flex flex-column align-items-center justify-content-between">
                                                     <h5 class="card-title">Support</h5>
                                                     <p class="card-text">Our dedicated support team is here to assist you every step of the way, ensuring your success.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    <a href="#" class="btn btn-primary">Visit Our Blog</a>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-12 py-5'>
-                                    <div className='row'>
-                                        <div className='col-12 col-md-8'>
-                                            
-                                        </div>
-                                        <div className='col-12 col-md-4'>
-
                                         </div>
                                     </div>
                                 </div>
@@ -177,8 +167,9 @@ export function Home() {
                         <Link className='p-3 bg-dark rounded-circle text-warning' to='/top'><FontAwesomeIcon className='fs-5' icon={faArrowUp} /></Link>
                     </div>
                 </div>
+
                 <footer className="footer bg-dark text-white-50">
-                <div className="container">
+                <div className="container-fluid px-4 px-md-5">
                     <div className="row py-5">
                         <div className="col-md-4">
                             <h5>Contact Us</h5>

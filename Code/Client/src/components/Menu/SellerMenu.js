@@ -45,7 +45,7 @@ export function SellerMenu() {
                     <section className="col-12 p-0">
                         <nav class="navbar navbar-expand-lg bg-transparent">
                             <div className="container-fluid">
-                                <Link className="navbar-brand" to={`/seller_home/${sellerid}`}><img className='rounded-circle logo' src={logo} alt="logo"></img></Link>
+                                <Link className="navbar-brand col-1" to={`/seller_home/${sellerid}`}><img className='rounded-circle logo col-12 col-lg-6' src={logo} alt="logo"></img></Link>
                                 <button className="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -67,7 +67,7 @@ export function SellerMenu() {
                                             <button className="bg-transparent border-0 text-white" onClick={handleLogout}>Logout</button>
                                         </li>
                                         <li>
-                                            <h6 className="text-white m-0">Welcome {fname} {lname}</h6>
+                                            <h6 className="text-white m-0 py-3 p-lg-0">Welcome {fname} {lname}</h6>
                                         </li>
                                     </ul>
                                 </div>

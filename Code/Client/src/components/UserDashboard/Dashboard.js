@@ -21,7 +21,7 @@ export function Dashboard() {
         <>
             <main className="container-fluid product-dashboard bg-dark">
                 <div className="row">
-                    <section className="col-12">
+                    <section className="col-12 d-flex flex-column align-items-center">
                         <h1 className="text-center text-white py-4">Our Latest Products</h1>
                         <div className="row w-100 d-flex justify-content-evenly">
                             {product.map((value) => (

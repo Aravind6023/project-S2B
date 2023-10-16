@@ -3,6 +3,7 @@
 @import "colors";
 @import "mediaquery";
 
+
 * {
   margin: 0;
   padding: 0;
@@ -35,14 +36,21 @@
         input {
           height: 100%;
           width: 100%;
-          background: #333;
+          background-color: #333;
           border: none;
           outline: none;
           border-radius: 4px;
-          color: $login_input_placeholder;
+          color: $white_clr;
           font-size: 1rem;
           padding: 20px 15px 15px 15px;
+
+          &[type="date"] {
+            &:invalid {
+              color: $login_input_placeholder;
+            }
+          }
         }
+
 
         label {
           position: absolute;
@@ -124,12 +132,12 @@
 
     .card-body {
       z-index: 1;
-    
+
       &:hover {
         opacity: 0;
       }
     }
-    
+
 
     // .blur {
     //   position: absolute;
@@ -148,6 +156,11 @@
 .menu {
   max-height: 12vh;
 }
+@media (max-width: 991px) {
+  .menu {
+    max-height: fit-content;
+  }
+}
 
 //mixins
 @mixin height {
@@ -160,11 +173,13 @@
 .edit_profile,
 .seller-product,
 .product-dashboard //user-edit
-
-  {
+{
   @include height;
 }
 
+.seller-product .updatePrdouct input{
+  outline: none;
+}
 
 //admin-edits
 .show-users {
@@ -199,3 +214,5 @@
     }
   }
 }
+
+

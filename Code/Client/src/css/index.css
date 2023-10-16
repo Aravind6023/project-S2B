@@ -80,13 +80,23 @@ body .form-wrapper h2 {
 .registerSection .signUpContainer .form-wrapper .input-Container input {
   height: 100%;
   width: 100%;
-  background: #333;
+  background-color: #333;
   border: none;
   outline: none;
   border-radius: 4px;
-  color: #8c8c8c;
+  color: white;
   font-size: 1rem;
   padding: 20px 15px 15px 15px;
+}
+.logInSection .signInContainer .form-wrapper .form-control input[type=date]:invalid,
+.logInSection .signInContainer .form-wrapper .input-Container input[type=date]:invalid,
+.logInSection .signUpContainer .form-wrapper .form-control input[type=date]:invalid,
+.logInSection .signUpContainer .form-wrapper .input-Container input[type=date]:invalid,
+.registerSection .signInContainer .form-wrapper .form-control input[type=date]:invalid,
+.registerSection .signInContainer .form-wrapper .input-Container input[type=date]:invalid,
+.registerSection .signUpContainer .form-wrapper .form-control input[type=date]:invalid,
+.registerSection .signUpContainer .form-wrapper .input-Container input[type=date]:invalid {
+  color: #8c8c8c;
 }
 .logInSection .signInContainer .form-wrapper .form-control label,
 .logInSection .signInContainer .form-wrapper .input-Container label,
@@ -184,12 +194,22 @@ body .form-wrapper h2 {
   max-height: 12vh;
 }
 
+@media (max-width: 991px) {
+  .menu {
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+}
 .cus-itemdashboard,
 .edit_profile,
 .seller-product,
 .product-dashboard {
   min-height: 88vh;
   color: aqua;
+}
+
+.seller-product .updatePrdouct input {
+  outline: none;
 }
 
 .show-users h1 {

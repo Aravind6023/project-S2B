@@ -371,6 +371,25 @@ expressfun.put('/updatesellerdata/:seller_id', (request, response) => {
     );
 });
 
+
+expressfun.put('/updateproduct/:pid', (request, response) => {
+    const { pid } = request.params;
+    const { product_name, product_category, product_description, product_image, product_price, phone_number } = request.body;
+
+    const updateQuery = 'UPDATE product_table SET product_name=?, product_category=?, product_description=?, product_image=?, product_price=?, phone_number=? WHERE product_id=?';
+
+    db.query(updateQuery, [product_name, product_category, product_description, product_image, product_price, phone_number, pid], (error, results) => {
+        if (error) {
+            console.error(error);
+            response.send({ status: 'error', message: 'Failed to update data.' });
+        } else {
+            response.send({ status: 'success', message: 'Data updated successfully.' });
+        }
+    });
+});
+
+
+
 expressfun.delete("/deleteuseradmin/:user_id", (request, response) => {
 
     const { user_id } = request.params;

@@ -8,24 +8,34 @@ import './css/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
-// Components
-import { Login } from './components/Login/Login';
-import { Register } from './components/Register/Register';
-import { Home } from './components/Home/Home';
-import { Dashboard } from './components/Dashboard/Dashboard';
-import { Menu } from './components/Menu/Menu';
+//Common Menu Component of landing page
+// 1).Login and Signup Menu 
 import { Homemenu } from './components/Menu/Homemenu';
-import { Itemdashboard } from './components/Dashboard/Itemdashboard';
-import { SellerMenu } from './components/Menu/SellerMenu';
-import { Useredit } from './components/user/Edit_user';
-import { Selleredit } from './components/user/Edit_seller';
-import { Sellerdashboard } from './components/Dashboard/Sellerdashboard';
-import { Adminmenu } from './components/Menu/Adminmenu';
-import { Userlist } from './components/Dashboard/Userlist';
-import { Sellerlist } from './components/Dashboard/Sellerlist';
-import { Productlist } from './components/Dashboard/Productlist';
-import { Message } from './components/Dashboard/Message';
 
+// 2).Landing page for user, seller, admin
+import { Home } from './components/Landing_page/Home';
+
+// 3).login and Register Components
+import { Login } from './components/Login_and_Register/Login';
+import { Register } from './components/Login_and_Register/Register';
+
+//user Components
+import { Dashboard } from './components/UserDashboard/Dashboard';
+import { Menu } from './components/Menu/Menu';
+import { Itemdashboard } from './components/UserDashboard/Itemdashboard';
+import { Useredit } from './components/UserDashboard/Edit_user';
+
+//Seller Components
+import { SellerMenu } from './components/Menu/SellerMenu';
+import { Selleredit } from './components/SellerDashboard/Edit_seller';
+import { Sellerdashboard } from './components/SellerDashboard/Sellerdashboard';
+import { Message } from './components/SellerDashboard/Message';
+
+//Admin Components
+import { Adminmenu } from './components/Menu/Adminmenu';
+import { Userlist } from './components/AdminDashboard/Userlist';
+import { Sellerlist } from './components/AdminDashboard/Sellerlist';
+import { Productlist } from './components/AdminDashboard/Productlist';
 
 
 function App() {
