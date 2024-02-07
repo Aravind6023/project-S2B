@@ -21,8 +21,12 @@ S2B (Seller to Buyer) Application is a dynamic web platform tailored for efficie
     <h3>Admin privileges:</h3> Administrators have elevated privileges compared to regular users. They have access to user management functionalities, allowing them to oversee and manage user accounts. This includes the capability to delete user accounts if necessary, ensuring proper management and maintenance of the platform. Admins may also have access to other administrative tasks such as analytics, content moderation, or system configuration.
   </li>
 </ul>
+
 <h3>            </h3>
-<h3> 1) Landing Page :  </h3>
+
+<h3>1) Landing Page :</h3>
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/f780d441-8db1-4c2d-a57f-32977d69aaf5)
+
 
 
 
