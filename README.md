@@ -79,8 +79,24 @@ Both the seller and the Buyer(user) lands the same homepage.
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/eabcf11b-a7e0-40cb-8bcb-ecf11ed0f57b)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/99313bb9-036b-4ec8-bfba-1041bef289bf)
 
+<h3>5). Seller landing page</h3>
 
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/69708cf1-f8c7-4a0a-b005-d4f5baf2d15f)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/6aa90523-9bf9-42be-bf3b-96b973780efa)
 
+<h3>5.1). Add product page</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/3b8d00aa-33a9-4400-9902-f35f3bea6e93)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/2be2ecc5-df28-4e99-ad18-90668ae46f0c)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/0800d71c-86ac-4ba1-a882-9e2b41699dfc)
+
+<h3>5.1.2). Edit my product button action</h3>
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/892edc54-ea23-4dad-8841-9f969371264c)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/e3148339-5eaa-45e2-83a2-cf3ee93c5bc1)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/cee000ce-8d65-4dfa-adb6-9e06bceb2f03)
+
+<h3>5.2). Message page</h3>
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/bedf4673-9c6d-4e19-9236-e421f54ba8f9)
 
 
 
