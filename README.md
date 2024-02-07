@@ -123,7 +123,7 @@ Both the seller and the Buyer(user) lands the same homepage.
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/55694154-02a5-4c07-906e-ecfdbcda24b7)
 
-<h3>8). Admin user update</h3>
+<h3>8.1). Admin user update</h3>
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/b17efadb-f4a4-4102-a4c3-89d966ca9b5d)
 
@@ -132,12 +132,19 @@ Both the seller and the Buyer(user) lands the same homepage.
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/4ebb6af9-1f63-4d46-b448-5aec052b2834)
 
-<h3>Admin product list page</h3>
+<h3>9.1). Admin seller update</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/4a14955f-f2f9-4f7b-ac99-43c42c22cee6)
+
+
+<h3>10). Admin product list page</h3>
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/54c81d6c-7bcf-4e0f-b985-b4be96460115)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/0e2da4f4-9cb2-4dfb-98a5-2017ca7a6f5c)
 
+<h3>11) Product list database</h3>
 
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/a32f2bf5-ec77-4921-90bb-4d20bfc3a734)
 
 
 
