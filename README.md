@@ -98,8 +98,11 @@ Both the seller and the Buyer(user) lands the same homepage.
 
 <h3>5.2). Message page</h3>
 
-![image](https://github.com/Aravind6023/project-S2B/assets/135958235/bedf4673-9c6d-4e19-9236-e421f54ba8f9)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/b2272b51-e9c6-4351-9eb2-d16c16d95e71)
 
+<h3>5.3). Account edit page</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/f99d92bf-fed6-41eb-b376-065ac41b00b8)
 
 
 
