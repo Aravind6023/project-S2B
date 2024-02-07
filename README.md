@@ -38,7 +38,10 @@ S2B (Seller to Buyer) Application is a dynamic web platform tailored for efficie
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/e6ae260d-0dbc-4675-9683-67007d763480)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/a3bd6506-1914-4020-974d-4ac7a3838a4f)
 
-<h4>Checks if the user is already present in the database.</h4>
+<h4>Checks if the user is already present in the database by checking the mail id.</h4>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/4f810c80-b774-4f28-95e4-2d3ff02706f3)
+
 
 <h3>3). Sign-in page</h3>
 
