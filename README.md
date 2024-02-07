@@ -1,4 +1,4 @@
-# S2B(Seller to Buyer) Application
+<h1 align="center">S2B(Seller to Buyer) Application</h1>
 <h2 align="center">First project in full-stack development</h2>
 
 ### Application Description:
