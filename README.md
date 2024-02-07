@@ -57,9 +57,34 @@ Both the seller and the Buyer(user) lands the same homepage.
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/0d9d7187-73de-415d-a481-3c437723b053)
 
-<h3>3.1). Product page</h3>
+<h3>4.1). Product page</h3>
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/121acca3-d68d-421a-8311-1ee8f5765f5f)
+
+<h3>4.2). Detail product view page</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/d78e5e25-9a3c-4361-a628-f3b5a1c16df2)
+
+<h3>4.3). Account edit page</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/8f96e020-9b11-40c4-968b-d3bf64c07f18)
+
+<h3>4.4). Contact seller action</h3>
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/30ab0ebc-da54-4b8b-9c41-d551360dd8e3)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/79ac0736-014a-477c-91d6-8d5ccc47e93d)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/b4f62d29-f085-4ca4-85a6-d448ad07a92e)
+
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/82506242-2f19-43ee-929a-0e58f3b7567a)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/eabcf11b-a7e0-40cb-8bcb-ecf11ed0f57b)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/99313bb9-036b-4ec8-bfba-1041bef289bf)
+
+
+
+
+
+
+
 
 
 
