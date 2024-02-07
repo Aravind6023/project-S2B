@@ -56,6 +56,8 @@ S2B (Seller to Buyer) Application is a dynamic web platform tailored for efficie
 Both the seller and the Buyer(user) lands the same homepage.
 
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/0d9d7187-73de-415d-a481-3c437723b053)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/940737f8-1ea3-4322-8347-eb7854d02562)
+
 
 <h3>4.1). Product page</h3>
 
@@ -78,6 +80,9 @@ Both the seller and the Buyer(user) lands the same homepage.
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/82506242-2f19-43ee-929a-0e58f3b7567a)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/eabcf11b-a7e0-40cb-8bcb-ecf11ed0f57b)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/99313bb9-036b-4ec8-bfba-1041bef289bf)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/b935a7b9-da8e-4271-9a5e-bfd35d184ec6)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/1ff97525-92e9-4329-824c-b86bc01bb2a5)
+
 
 <h3>5). Seller landing page</h3>
 
