@@ -1,5 +1,5 @@
 # S2B(Seller to Buyer) Application
-## First project in full-stack development
+<center>## First project in full-stack development</center>
 
 
 ### Application Description:
