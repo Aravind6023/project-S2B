@@ -100,6 +100,8 @@ Both the seller and the Buyer(user) lands the same homepage.
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/892edc54-ea23-4dad-8841-9f969371264c)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/e3148339-5eaa-45e2-83a2-cf3ee93c5bc1)
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/cee000ce-8d65-4dfa-adb6-9e06bceb2f03)
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/08868870-5285-4e74-a5f2-a193eb10634c)
+
 
 <h3>5.2). Message page</h3>
 
