@@ -4,7 +4,7 @@
 ### Application Description:
 S2B (Seller to Buyer) Application is a dynamic web platform tailored for efficient interactions between sellers and buyers. With intuitive role-based user registration, sellers can easily showcase their products, while buyers benefit from direct communication channels for inquiries. The platform facilitates seamless account editing for users and grants administrators robust privileges for platform management, including user account deletion.
 
-<b>Role-based user registration:</b> This feature allows different types of users (such as buyers, sellers, and administrators) to register for the web application. Each user registers with specific details based on their role, providing necessary information for the platform to distinguish between buyers, sellers, and admins.
+<h3>Role-based user registration:</h3> This feature allows different types of users (such as buyers, sellers, and administrators) to register for the web application. Each user registers with specific details based on their role, providing necessary information for the platform to distinguish between buyers, sellers, and admins.
 
 Product listing: Sellers are enabled to list their products on the platform. They provide details such as product name, description, price, and images. This functionality allows sellers to showcase their products to potential buyers on the platform.
 
