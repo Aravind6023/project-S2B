@@ -27,6 +27,7 @@ S2B (Seller to Buyer) Application is a dynamic web platform tailored for efficie
 <h3>1) Landing Page :</h3>
 ![image](https://github.com/Aravind6023/project-S2B/assets/135958235/f780d441-8db1-4c2d-a57f-32977d69aaf5)
 
+![image](https://github.com/Aravind6023/project-S2B/assets/135958235/9d6b8570-878c-4470-8c69-edeaca912a26)
 
 
 
